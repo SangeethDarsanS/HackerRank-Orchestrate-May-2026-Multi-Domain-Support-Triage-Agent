@@ -1,0 +1,6 @@
+{
+  "avg_latency_ms": 637.57,
+  "p95_latency_ms": 1091.95,
+  "memory_usage_mb": 882.74,
+  "throughput_tps": 5.2138
+}

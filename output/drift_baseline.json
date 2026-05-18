@@ -1,0 +1,19 @@
+{
+  "_n_runs": 4,
+  "intents": {
+    "general_inquiry": 0.034483,
+    "feature_request": 0.103448,
+    "data_privacy": 0.068966,
+    "technical_bug": 0.310345,
+    "billing_payment": 0.068966,
+    "account_access": 0.137931,
+    "out_of_scope": 0.206897,
+    "security_concern": 0.068966
+  },
+  "risk_levels": {
+    "high": 0.37931,
+    "medium": 0.137931,
+    "low": 0.482759
+  },
+  "escalation_rate": 0.689655
+}
