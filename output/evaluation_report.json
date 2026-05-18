@@ -1,0 +1,19 @@
+{
+  "n_samples": 29,
+  "n_labelled": 29,
+  "ground_truth_coverage": 1.0,
+  "accuracy": 0.6207,
+  "precision": 0.6923,
+  "recall": 0.5625,
+  "f1": 0.6207,
+  "escalation_rate": 0.5517,
+  "avg_confidence": 0.6866,
+  "avg_latency_ms": 231.03,
+  "request_type_accuracy": 0.8621,
+  "request_type_f1_macro": 0.8125,
+  "product_area_accuracy": 0.6207,
+  "ticket_count": 29,
+  "escalation_count": 16,
+  "error_count": 0,
+  "peak_memory_mb": 828.89
+}

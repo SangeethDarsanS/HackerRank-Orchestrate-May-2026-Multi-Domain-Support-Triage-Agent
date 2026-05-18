@@ -1,0 +1,71 @@
+{
+  "status": "RECOVERED",
+  "timestamp": "2026-05-01T18:35:00+05:30",
+  "missing_files": [],
+  "syntax_errors_fixed": [],
+  "dependencies_installed": [],
+  "index_rebuilt": false,
+  "index_status": "CACHED — faiss.index and chunks.pkl intact in code/.cache/",
+  "system_restart": "SUCCESS",
+  "details": {
+    "python_version": "3.14.3",
+    "required_files_present": [
+      "code/main.py",
+      "code/evaluate.py",
+      "code/benchmark.py",
+      "code/requirements.txt",
+      "code/config.yaml",
+      "code/modules/retriever.py",
+      "code/modules/hybrid_retriever.py",
+      "code/modules/reranker.py",
+      "code/modules/intent_classifier.py",
+      "code/modules/guardrails.py",
+      "code/modules/confidence.py",
+      "code/modules/policy_enforcer.py",
+      "code/modules/stream_logger.py"
+    ],
+    "dependencies_verified": [
+      "faiss-cpu (1.13.2)",
+      "sentence-transformers (5.4.1)",
+      "pandas (2.3.3)",
+      "numpy (2.4.3)",
+      "scikit-learn (1.8.0)",
+      "pyyaml",
+      "rank-bm25",
+      "tqdm (4.67.3)",
+      "python-dotenv",
+      "rich",
+      "psutil (7.2.2)"
+    ],
+    "config_fields_validated": [
+      "retrieval.method = hybrid",
+      "reranker.enabled = true",
+      "confidence.threshold = 0.65",
+      "logging.streaming = true",
+      "retry.max_attempts = 3"
+    ],
+    "health_check_result": {
+      "Config": "OK",
+      "Corpus": "OK (773 files)",
+      "Modules": "OK",
+      "Memory": "OK (458.7 MB RSS)",
+      "Logging": "OK",
+      "Index Cache": "OK (cached)"
+    },
+    "output_files_preserved": {
+      "output.csv": "34788 bytes — NOT overwritten",
+      "log.txt": "423064 bytes — NOT overwritten",
+      "backtest_output.csv": "34775 bytes — NOT overwritten",
+      "stream.log": "preserved"
+    },
+    "recovery_actions_taken": [
+      "Verified all 13 required source files present and syntax-clean",
+      "Confirmed Python 3.14.3 (>= 3.9 requirement satisfied)",
+      "Confirmed all pip dependencies importable",
+      "Confirmed FAISS index and model cache intact in code/.cache/",
+      "Validated config.yaml — all required fields present",
+      "Ran python main.py --health-check — passed all 6 checks",
+      "Confirmed output.csv and log.txt exist and were NOT overwritten"
+    ]
+  }
+}

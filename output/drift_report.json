@@ -1,0 +1,51 @@
+{
+  "timestamp": "2026-05-01T19:44:05+05:30",
+  "n_tickets": 29,
+  "threshold": 0.15,
+  "drift_detected": false,
+  "intent_tvd": 0.0,
+  "risk_tvd": 0.0,
+  "escalation_drift": 0.0,
+  "escalation_rate": 0.6897,
+  "alerts": [],
+  "current_distributions": {
+    "intents": {
+      "account_access": 0.1379,
+      "out_of_scope": 0.2069,
+      "billing_payment": 0.069,
+      "technical_bug": 0.3103,
+      "feature_request": 0.1034,
+      "general_inquiry": 0.0345,
+      "security_concern": 0.069,
+      "data_privacy": 0.069
+    },
+    "risk_levels": {
+      "medium": 0.1379,
+      "high": 0.3793,
+      "low": 0.4828
+    },
+    "actions": {
+      "replied": 0.3103,
+      "escalated": 0.6897
+    }
+  },
+  "baseline": {
+    "_n_runs": 3,
+    "intents": {
+      "feature_request": 0.103448,
+      "account_access": 0.137931,
+      "billing_payment": 0.068966,
+      "general_inquiry": 0.034483,
+      "technical_bug": 0.310345,
+      "security_concern": 0.068966,
+      "data_privacy": 0.068966,
+      "out_of_scope": 0.206897
+    },
+    "risk_levels": {
+      "low": 0.482759,
+      "high": 0.37931,
+      "medium": 0.137931
+    }
+  },
+  "baseline_source": "dynamic"
+}
