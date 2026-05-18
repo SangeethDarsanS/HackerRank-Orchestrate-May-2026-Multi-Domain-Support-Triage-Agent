@@ -6,11 +6,7 @@
 
 ## Certificate of Excellence
 
-**HackerRank** awarded a Certificate of Excellence to **Sangeeth Darsan Sudarsanan** for achieving **608th place** in building & submitting an AI Agent as part of **HackerRank Orchestrate May 2026**.
-
-> *Signed by Harishankaran K, Co-Founder & CTO, HackerRank*
-
-An offline-first, RAG-powered support triage agent that classifies, risk-scores, and resolves customer tickets across three domains — **Anthropic/Claude**, **HackerRank**, and **Visa** — with zero hallucination and full audit logging.
+![Logo](https://raw.githubusercontent.com/username/repo/main/assets/logo.png)
 
 ---
 
