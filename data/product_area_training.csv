@@ -1,0 +1,141 @@
+text,product_area
+assessment submission failed,screen
+candidate did not receive test invitation,screen
+test is not loading for candidate,screen
+questions not appearing in the test,screen
+time limit not working correctly in assessment,screen
+test score seems incorrect,screen
+assessment link has expired,screen
+candidate cannot start the test,screen
+hackerrank test environment issues,screen
+reschedule hackerrank assessment,screen
+test result not visible to recruiter,screen
+candidate unable to complete assessment,screen
+wrong answer grading in assessment,screen
+proctoring issue during test,screen
+test not submitted properly,screen
+inactivity timeout during interview,interviews
+candidate kicked from interview room,interviews
+screen share not working in codepair interview,interviews
+interviewer cannot see candidate code,interviews
+hr lobby connection issue,interviews
+video interview not loading,interviews
+candidate sent back to lobby unexpectedly,interviews
+inactivity settings for interviewer,interviews
+codepair session disconnected,interviews
+extend inactivity time for interview,interviews
+mock interview stopped midway,skillup
+skillup feature not working,skillup
+mock test session ended unexpectedly,skillup
+practice interview credit not provided,skillup
+skillup subscription issue,skillup
+cannot access mock interview on skillup,skillup
+skillup refund request,skillup
+cannot see apply tab on hackerrank,community
+resume builder not working on hackerrank,community
+practice problems not loading,community
+coding challenge submission failed on community,community
+profile not visible to employers,community
+apply to jobs not working on platform,community
+hackerrank community badge issue,community
+practice contest not accessible,community
+delete hackerrank account,community
+google login account deletion,community
+how to remove user from hackerrank account,settings
+subscription pause request for hackerrank,settings
+admin panel not accessible,settings
+user management issue on platform,settings
+add team member to hackerrank account,settings
+role permissions not saving in settings,settings
+remove employee from hackerrank hiring account,settings
+infosec security assessment forms,settings
+seat management for hackerrank enterprise,settings
+billing and invoice for hackerrank subscription,billing
+payment issue with hackerrank order,billing
+wrong charge on hackerrank account,billing
+order processing failed for hackerrank,billing
+payment not going through for subscription,billing
+invoice not received for hackerrank plan,billing
+lost access to claude workspace,account_management
+team member removed my claude access,account_management
+cannot login to claude account,account_management
+workspace seat issue in claude,account_management
+organization settings for claude team,account_management
+claude team plan access problem,account_management
+restore deleted claude console account,account_management
+api requests to claude are failing,claude_api
+all claude requests timing out,claude_api
+claude not responding to api calls,claude_api
+rate limit exceeded on claude api,claude_api
+api key invalid or unauthorized,claude_api
+console access issue for claude,claude_api
+sdk integration failing with claude,claude_api
+claude api down all requests failing,claude_api
+token usage exceeded in claude api,claude_api
+delete my claude conversation,privacy
+stop crawling my website with claude,privacy
+data privacy concern about claude,privacy
+conversation history in claude,privacy
+how long is my data stored by claude,privacy
+personal data usage by anthropic,privacy
+gdpr data deletion request for claude,privacy
+claude data used for model training,privacy
+security vulnerability found in claude,safeguards
+bug bounty submission for claude,safeguards
+security issue report for anthropic,safeguards
+vulnerability report for claude,safeguards
+safety concern with claude responses,safeguards
+harmful content policy question for claude,safeguards
+aws bedrock requests to claude failing,amazon_bedrock
+claude on amazon bedrock integration issue,amazon_bedrock
+bedrock api calls not working,amazon_bedrock
+aws region configuration for claude bedrock,amazon_bedrock
+bedrock claude model not available,amazon_bedrock
+lti key setup for students using claude,education
+professor setting up claude for classroom,education
+university integration with claude,education
+student access to claude for coursework,education
+college course using claude ai,education
+claude for academic research setup,education
+dispute a charge on visa card,dispute_resolution
+wrong product delivered from visa merchant,dispute_resolution
+merchant not providing refund,dispute_resolution
+chargeback request for visa transaction,dispute_resolution
+visa dispute process for fraudulent charge,dispute_resolution
+unauthorized transaction on visa card,dispute_resolution
+merchant dispute for visa purchase,dispute_resolution
+lost visa card report,consumer_support
+visa card stolen need to block,consumer_support
+identity theft with visa card,consumer_support
+urgent cash advance from visa card,consumer_support
+visa card blocked abroad,consumer_support
+card declined at merchant,consumer_support
+visa card minimum spend requirement,consumer_support
+replace stolen visa card,consumer_support
+emergency card assistance while travelling,consumer_support
+travellers cheque stolen abroad,travel_support
+foreign currency issue with visa,travel_support
+visa card not working overseas,travel_support
+emergency cash for lost travellers cheques,travel_support
+visa support while traveling internationally,travel_support
+cheques lost during international trip,travel_support
+refund for stolen travellers cheques,travel_support
+pci compliance issue for visa merchant,data_security
+data security breach involving visa,data_security
+merchant security requirements for visa,data_security
+question library creation on hackerrank,library
+coding question bank issue,library
+hackerrank library question not working,library
+ai interview feature chakra issue,chakra
+chakra ai interviewer not available,chakra
+integration with ats greenhouse failing,integrations
+ashby webhook not receiving data,integrations
+hackerrank integration with third party tool,integrations
+team enterprise workspace for claude,team_enterprise
+sso setup for claude enterprise,team_enterprise
+enterprise plan access issue,team_enterprise
+small business visa merchant account,small_business
+visa merchant services for small business,small_business
+general support request,general_support
+not sure which product area,general_support
+help needed no specific category,general_support

@@ -31,3 +31,11 @@ data/index/
 data/embeddings/
 *.sqlite
 *.db
+
+# FAISS / sentence-transformer cache
+code/.cache/
+
+# Agent operation logs (generated at runtime)
+support_tickets/log.txt
+support_tickets/sample_output.csv
+support_tickets/output_run*.csv

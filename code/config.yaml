@@ -1,0 +1,75 @@
+# Support Triage Agent — runtime configuration
+# All values here override the module defaults.
+
+# ---------------------------------------------------------------------------
+# Retrieval
+# ---------------------------------------------------------------------------
+retrieval:
+  method: hybrid          # "hybrid" (BM25 + FAISS) | "embedding" (FAISS only)
+  top_k: 10               # chunks returned per query
+  bm25_weight: 0.4        # weight of BM25 score in hybrid formula
+  embedding_weight: 0.6   # weight of embedding (FAISS cosine) score
+
+# ---------------------------------------------------------------------------
+# Reranker
+# ---------------------------------------------------------------------------
+reranker:
+  enabled: true
+  model: cross-encoder/ms-marco-MiniLM-L-6-v2
+  top_n: 3                # top docs to keep after reranking
+  input_limit: 5          # max chunks fed to the cross-encoder (reduces latency)
+  timeout_ms: 700         # skip reranker if predict() takes longer than this
+
+# ---------------------------------------------------------------------------
+# Intent classifier
+# ---------------------------------------------------------------------------
+classifier:
+  use_rules: true         # enable rule-based engine
+  use_ml: true            # enable TF-IDF + LogReg stage
+
+# ---------------------------------------------------------------------------
+# Composite confidence
+# ---------------------------------------------------------------------------
+confidence:
+  threshold: 0.65         # composite score below this → ESCALATE
+
+# ---------------------------------------------------------------------------
+# Safety guardrails
+# ---------------------------------------------------------------------------
+guardrails:
+  strict_mode: true       # any violation → unsafe
+
+# ---------------------------------------------------------------------------
+# Policy citation enforcement
+# ---------------------------------------------------------------------------
+policy:
+  require_citation: true  # responses must reference a retrieved document
+
+# ---------------------------------------------------------------------------
+# Streaming logs
+# ---------------------------------------------------------------------------
+logging:
+  streaming: true         # enable StreamLogger
+  stream_to_console: false # echo stages to stderr (can be noisy with progress bar)
+
+# ---------------------------------------------------------------------------
+# Retry
+# ---------------------------------------------------------------------------
+retry:
+  max_attempts: 3         # max retrieval attempts before forced escalation
+
+# ---------------------------------------------------------------------------
+# Reproducibility
+# ---------------------------------------------------------------------------
+seed: 42
+
+# ---------------------------------------------------------------------------
+# Production features
+# ---------------------------------------------------------------------------
+features:
+  decision_summary: true        # add decision_summary column to output.csv
+  caching: true                 # LRU cache for retrieval / reranker / intent
+  health_check: true            # enable --health-check CLI flag
+  drift_monitoring: true        # track distribution drift, write drift_report.json
+  failure_reporting: true       # capture structured errors, write failure_report.json
+  confidence_calibration: true  # apply Platt sigmoid calibration to confidence scores

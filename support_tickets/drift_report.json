@@ -1,0 +1,55 @@
+{
+  "timestamp": "2026-05-01T20:06:40+05:30",
+  "n_tickets": 29,
+  "threshold": 0.15,
+  "drift_detected": true,
+  "intent_tvd": 0.3207,
+  "risk_tvd": 0.2293,
+  "escalation_drift": 0.2897,
+  "escalation_rate": 0.6897,
+  "alerts": [
+    "Intent distribution drift detected (TVD=0.321 > threshold=0.15).",
+    "Risk distribution drift detected (TVD=0.229 > threshold=0.15).",
+    "Escalation rate drift detected (current=0.69 baseline=0.40 delta=0.290 > threshold=0.15)."
+  ],
+  "current_distributions": {
+    "intents": {
+      "account_access": 0.1379,
+      "out_of_scope": 0.2069,
+      "billing_payment": 0.069,
+      "technical_bug": 0.3103,
+      "feature_request": 0.1034,
+      "general_inquiry": 0.0345,
+      "security_concern": 0.069,
+      "data_privacy": 0.069
+    },
+    "risk_levels": {
+      "medium": 0.1379,
+      "high": 0.3793,
+      "low": 0.4828
+    },
+    "actions": {
+      "replied": 0.3103,
+      "escalated": 0.6897
+    }
+  },
+  "baseline": {
+    "intents": {
+      "account_access": 0.2,
+      "billing_payment": 0.1,
+      "technical_bug": 0.2,
+      "feature_request": 0.05,
+      "security_concern": 0.1,
+      "api_integration": 0.1,
+      "data_privacy": 0.1,
+      "general_inquiry": 0.1,
+      "out_of_scope": 0.05
+    },
+    "risk_levels": {
+      "low": 0.5,
+      "medium": 0.35,
+      "high": 0.15
+    }
+  },
+  "baseline_source": "default"
+}

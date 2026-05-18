@@ -1,0 +1,261 @@
+2026-05-01 20:06:35 | Ticket 1 | START                |                 |
+2026-05-01 20:06:35 | Ticket 1 | classification       | product_issue   | 2.3 ms
+2026-05-01 20:06:35 | Ticket 2 | START                |                 |
+2026-05-01 20:06:35 | Ticket 2 | classification       | product_issue   | 0.2 ms
+2026-05-01 20:06:35 | Ticket 3 | START                |                 |
+2026-05-01 20:06:35 | Ticket 3 | classification       | product_issue   | 0.2 ms
+2026-05-01 20:06:35 | Ticket 4 | START                |                 |
+2026-05-01 20:06:35 | Ticket 4 | classification       | bug             | 0.1 ms
+2026-05-01 20:06:36 | Ticket 4 | retrieval            | hits=10         | 255.7 ms
+2026-05-01 20:06:36 | Ticket 3 | retrieval            | hits=10         | 267.2 ms
+2026-05-01 20:06:36 | Ticket 1 | retrieval            | hits=10         | 288.3 ms
+2026-05-01 20:06:36 | Ticket 2 | retrieval            | hits=10         | 293.7 ms
+2026-05-01 20:06:36 | Ticket 3 | reranker             | score=0.078     | 341.0 ms
+2026-05-01 20:06:36 | Ticket 3 | intent_classifier    | billing_payment(rule) | 4.3 ms
+2026-05-01 20:06:36 | Ticket 3 | guardrails           | safe            | 1.6 ms
+2026-05-01 20:06:36 | Ticket 3 | decision             | escalated       | 0.0 ms
+2026-05-01 20:06:36 | Ticket 3 | policy_enforcer      | escalation template  | 0.0 ms
+2026-05-01 20:06:36 | Ticket 3 | END                  | escalated       | 623.4 ms
+2026-05-01 20:06:36 | Ticket 5 | START                |                 |
+2026-05-01 20:06:36 | Ticket 5 | classification       | product_issue   | 3.3 ms
+2026-05-01 20:06:36 | Ticket 2 | reranker             | score=0.672     | 342.0 ms
+2026-05-01 20:06:36 | Ticket 1 | reranker             | score=0.995     | 352.9 ms
+2026-05-01 20:06:36 | Ticket 1 | intent_classifier    | account_access(ml) | 1.6 ms
+2026-05-01 20:06:36 | Ticket 1 | guardrails           | safe            | 0.2 ms
+2026-05-01 20:06:36 | Ticket 1 | decision             | replied         | 0.0 ms
+2026-05-01 20:06:36 | Ticket 1 | policy_enforcer      | citation_added  | 0.2 ms
+2026-05-01 20:06:36 | Ticket 1 | END                  | replied         | 654.7 ms
+2026-05-01 20:06:36 | Ticket 6 | START                |                 |
+2026-05-01 20:06:36 | Ticket 6 | classification       | product_issue   | 0.2 ms
+2026-05-01 20:06:36 | Ticket 2 | intent_classifier    | out_of_scope(ml) | 11.6 ms
+2026-05-01 20:06:36 | Ticket 2 | guardrails           | safe            | 0.3 ms
+2026-05-01 20:06:36 | Ticket 2 | decision             | escalated       | 0.0 ms
+2026-05-01 20:06:36 | Ticket 2 | policy_enforcer      | escalation template  | 0.0 ms
+2026-05-01 20:06:36 | Ticket 2 | END                  | escalated       | 650.7 ms
+2026-05-01 20:06:36 | Ticket 7 | START                |                 |
+2026-05-01 20:06:36 | Ticket 7 | classification       | bug             | 0.1 ms
+2026-05-01 20:06:36 | Ticket 4 | reranker             | score=0.962     | 390.8 ms
+2026-05-01 20:06:36 | Ticket 4 | intent_classifier    | technical_bug(rule) | 1.3 ms
+2026-05-01 20:06:36 | Ticket 4 | guardrails           | safe            | 0.1 ms
+2026-05-01 20:06:36 | Ticket 4 | decision             | escalated       | 0.0 ms
+2026-05-01 20:06:36 | Ticket 4 | policy_enforcer      | escalation template  | 0.0 ms
+2026-05-01 20:06:36 | Ticket 4 | END                  | escalated       | 648.8 ms
+2026-05-01 20:06:36 | Ticket 8 | START                |                 |
+2026-05-01 20:06:36 | Ticket 8 | classification       | product_issue   | 0.1 ms
+2026-05-01 20:06:36 | Ticket 8 | retrieval            | hits=10         | 178.0 ms
+2026-05-01 20:06:36 | Ticket 5 | retrieval            | hits=10         | 203.4 ms
+2026-05-01 20:06:36 | Ticket 7 | retrieval            | hits=10         | 205.4 ms
+2026-05-01 20:06:36 | Ticket 6 | retrieval            | hits=10         | 229.9 ms
+2026-05-01 20:06:36 | Ticket 5 | reranker             | score=0.000     | 260.6 ms
+2026-05-01 20:06:36 | Ticket 5 | intent_classifier    | out_of_scope(ml) | 4.6 ms
+2026-05-01 20:06:36 | Ticket 5 | guardrails           | safe            | 1.6 ms
+2026-05-01 20:06:36 | Ticket 5 | decision             | escalated       | 0.0 ms
+2026-05-01 20:06:36 | Ticket 5 | policy_enforcer      | escalation template  | 0.0 ms
+2026-05-01 20:06:36 | Ticket 5 | END                  | escalated       | 481.3 ms
+2026-05-01 20:06:36 | Ticket 6 | reranker             | score=0.990     | 273.0 ms
+2026-05-01 20:06:36 | Ticket 6 | intent_classifier    | account_access(ml) | 1.8 ms
+2026-05-01 20:06:36 | Ticket 6 | guardrails           | safe            | 0.2 ms
+2026-05-01 20:06:36 | Ticket 6 | decision             | escalated       | 0.0 ms
+2026-05-01 20:06:36 | Ticket 6 | policy_enforcer      | escalation template  | 0.0 ms
+2026-05-01 20:06:36 | Ticket 6 | END                  | escalated       | 507.7 ms
+2026-05-01 20:06:36 | Ticket 8 | reranker             | score=0.044     | 350.2 ms
+2026-05-01 20:06:36 | Ticket 8 | intent_classifier    | technical_bug(ml) | 1.3 ms
+2026-05-01 20:06:36 | Ticket 8 | guardrails           | safe            | 0.1 ms
+2026-05-01 20:06:36 | Ticket 8 | decision             | escalated       | 0.0 ms
+2026-05-01 20:06:36 | Ticket 8 | policy_enforcer      | escalation template  | 0.0 ms
+2026-05-01 20:06:36 | Ticket 8 | END                  | escalated       | 533.7 ms
+2026-05-01 20:06:36 | Ticket 7 | reranker             | score=0.000     | 343.7 ms
+2026-05-01 20:06:36 | Ticket 7 | intent_classifier    | technical_bug(rule) | 1.6 ms
+2026-05-01 20:06:36 | Ticket 7 | guardrails           | safe            | 0.1 ms
+2026-05-01 20:06:36 | Ticket 7 | decision             | escalated       | 0.0 ms
+2026-05-01 20:06:36 | Ticket 7 | policy_enforcer      | escalation template  | 0.0 ms
+2026-05-01 20:06:36 | Ticket 7 | END                  | escalated       | 551.7 ms
+2026-05-01 20:06:37 | Ticket 9 | START                |                 |
+2026-05-01 20:06:37 | Ticket 9 | classification       | bug             | 2.2 ms
+2026-05-01 20:06:37 | Ticket 10 | START                |                 |
+2026-05-01 20:06:37 | Ticket 10 | classification       | product_issue   | 2.0 ms
+2026-05-01 20:06:37 | Ticket 11 | START                |                 |
+2026-05-01 20:06:37 | Ticket 11 | classification       | product_issue   | 0.4 ms
+2026-05-01 20:06:37 | Ticket 12 | START                |                 |
+2026-05-01 20:06:37 | Ticket 12 | classification       | bug             | 0.0 ms
+2026-05-01 20:06:37 | Ticket 12 | retrieval            | hits=10         | 372.0 ms
+2026-05-01 20:06:37 | Ticket 9 | retrieval            | hits=10         | 459.1 ms
+2026-05-01 20:06:37 | Ticket 10 | retrieval            | hits=10         | 470.9 ms
+2026-05-01 20:06:37 | Ticket 11 | retrieval            | hits=10         | 523.4 ms
+2026-05-01 20:06:37 | Ticket 12 | reranker             | score=0.002     | 166.5 ms
+2026-05-01 20:06:37 | Ticket 12 | intent_classifier    | technical_bug(rule) | 5.0 ms
+2026-05-01 20:06:37 | Ticket 12 | guardrails           | safe            | 2.0 ms
+2026-05-01 20:06:37 | Ticket 12 | decision             | replied         | 0.0 ms
+2026-05-01 20:06:37 | Ticket 12 | policy_enforcer      | escalation template  | 0.0 ms
+2026-05-01 20:06:37 | Ticket 12 | END                  | replied         | 550.6 ms
+2026-05-01 20:06:37 | Ticket 13 | START                |                 |
+2026-05-01 20:06:37 | Ticket 13 | classification       | product_issue   | 2.5 ms
+2026-05-01 20:06:37 | Ticket 10 | reranker             | score=0.443     | 333.1 ms
+2026-05-01 20:06:37 | Ticket 10 | intent_classifier    | out_of_scope(ml) | 2.7 ms
+2026-05-01 20:06:37 | Ticket 10 | guardrails           | safe            | 0.4 ms
+2026-05-01 20:06:37 | Ticket 10 | decision             | escalated       | 0.0 ms
+2026-05-01 20:06:37 | Ticket 10 | policy_enforcer      | escalation template  | 0.0 ms
+2026-05-01 20:06:37 | Ticket 10 | END                  | escalated       | 810.7 ms
+2026-05-01 20:06:37 | Ticket 14 | START                |                 |
+2026-05-01 20:06:37 | Ticket 14 | classification       | product_issue   | 1.7 ms
+2026-05-01 20:06:37 | Ticket 13 | retrieval            | hits=10         | 300.8 ms
+2026-05-01 20:06:38 | Ticket 9 | reranker             | score=0.000     | 414.3 ms
+2026-05-01 20:06:38 | Ticket 9 | intent_classifier    | technical_bug(rule) | 4.8 ms
+2026-05-01 20:06:38 | Ticket 9 | guardrails           | safe            | 1.8 ms
+2026-05-01 20:06:38 | Ticket 9 | decision             | escalated       | 0.0 ms
+2026-05-01 20:06:38 | Ticket 9 | policy_enforcer      | escalation template  | 0.0 ms
+2026-05-01 20:06:38 | Ticket 9 | END                  | escalated       | 889.4 ms
+2026-05-01 20:06:38 | Ticket 15 | START                |                 |
+2026-05-01 20:06:38 | Ticket 15 | classification       | bug             | 1.9 ms
+2026-05-01 20:06:38 | Ticket 11 | reranker             | score=0.302     | 383.0 ms
+2026-05-01 20:06:38 | Ticket 11 | intent_classifier    | feature_request(ml) | 4.0 ms
+2026-05-01 20:06:38 | Ticket 11 | guardrails           | safe            | 0.5 ms
+2026-05-01 20:06:38 | Ticket 11 | decision             | escalated       | 0.0 ms
+2026-05-01 20:06:38 | Ticket 11 | policy_enforcer      | escalation template  | 0.0 ms
+2026-05-01 20:06:38 | Ticket 11 | END                  | escalated       | 912.9 ms
+2026-05-01 20:06:38 | Ticket 16 | START                |                 |
+2026-05-01 20:06:38 | Ticket 16 | classification       | product_issue   | 1.4 ms
+2026-05-01 20:06:38 | Ticket 14 | retrieval            | hits=10         | 160.0 ms
+2026-05-01 20:06:38 | Ticket 16 | retrieval            | hits=5          | 73.1 ms
+2026-05-01 20:06:38 | Ticket 15 | retrieval            | hits=10         | 105.8 ms
+2026-05-01 20:06:38 | Ticket 13 | reranker             | score=0.996     | 270.0 ms
+2026-05-01 20:06:38 | Ticket 13 | intent_classifier    | general_inquiry(rule) | 5.6 ms
+2026-05-01 20:06:38 | Ticket 13 | guardrails           | safe            | 2.3 ms
+2026-05-01 20:06:38 | Ticket 13 | decision             | replied         | 0.0 ms
+2026-05-01 20:06:38 | Ticket 13 | policy_enforcer      | citation_added  | 0.1 ms
+2026-05-01 20:06:38 | Ticket 13 | END                  | replied         | 595.2 ms
+2026-05-01 20:06:38 | Ticket 15 | reranker             | score=0.975     | 172.6 ms
+2026-05-01 20:06:38 | Ticket 15 | intent_classifier    | technical_bug(rule) | 1.2 ms
+2026-05-01 20:06:38 | Ticket 15 | guardrails           | safe            | 0.1 ms
+2026-05-01 20:06:38 | Ticket 15 | decision             | escalated       | 0.0 ms
+2026-05-01 20:06:38 | Ticket 15 | policy_enforcer      | escalation template  | 0.0 ms
+2026-05-01 20:06:38 | Ticket 15 | END                  | escalated       | 289.0 ms
+2026-05-01 20:06:38 | Ticket 16 | reranker             | score=0.999     | 184.8 ms
+2026-05-01 20:06:38 | Ticket 16 | intent_classifier    | security_concern(rule) | 1.2 ms
+2026-05-01 20:06:38 | Ticket 16 | guardrails           | unsafe          | 0.1 ms
+2026-05-01 20:06:38 | Ticket 16 | decision             | escalated       | 0.0 ms
+2026-05-01 20:06:38 | Ticket 16 | policy_enforcer      | escalation template  | 0.0 ms
+2026-05-01 20:06:38 | Ticket 16 | END                  | escalated       | 262.3 ms
+2026-05-01 20:06:38 | Ticket 14 | reranker             | score=0.860     | 275.8 ms
+2026-05-01 20:06:38 | Ticket 14 | intent_classifier    | feature_request(ml) | 1.5 ms
+2026-05-01 20:06:38 | Ticket 14 | guardrails           | safe            | 0.1 ms
+2026-05-01 20:06:38 | Ticket 14 | decision             | escalated       | 0.0 ms
+2026-05-01 20:06:38 | Ticket 14 | policy_enforcer      | escalation template  | 0.0 ms
+2026-05-01 20:06:38 | Ticket 14 | END                  | escalated       | 441.4 ms
+2026-05-01 20:06:38 | Ticket 17 | START                |                 |
+2026-05-01 20:06:38 | Ticket 17 | classification       | bug             | 2.3 ms
+2026-05-01 20:06:38 | Ticket 19 | START                |                 |
+2026-05-01 20:06:38 | Ticket 19 | classification       | product_issue   | 1.5 ms
+2026-05-01 20:06:38 | Ticket 20 | START                |                 |
+2026-05-01 20:06:38 | Ticket 20 | classification       | bug             | 0.1 ms
+2026-05-01 20:06:38 | Ticket 18 | START                |                 |
+2026-05-01 20:06:38 | Ticket 18 | classification       | product_issue   | 0.1 ms
+2026-05-01 20:06:38 | Ticket 19 | retrieval            | hits=10         | 174.4 ms
+2026-05-01 20:06:38 | Ticket 18 | retrieval            | hits=10         | 169.2 ms
+2026-05-01 20:06:38 | Ticket 17 | retrieval            | hits=10         | 189.1 ms
+2026-05-01 20:06:38 | Ticket 20 | retrieval            | hits=10         | 174.4 ms
+2026-05-01 20:06:38 | Ticket 19 | reranker             | score=1.000     | 107.4 ms
+2026-05-01 20:06:38 | Ticket 19 | intent_classifier    | billing_payment(rule) | 4.5 ms
+2026-05-01 20:06:38 | Ticket 19 | guardrails           | unsafe          | 1.5 ms
+2026-05-01 20:06:38 | Ticket 19 | decision             | escalated       | 0.0 ms
+2026-05-01 20:06:38 | Ticket 19 | policy_enforcer      | escalation template  | 0.0 ms
+2026-05-01 20:06:38 | Ticket 19 | END                  | escalated       | 291.3 ms
+2026-05-01 20:06:38 | Ticket 21 | START                |                 |
+2026-05-01 20:06:38 | Ticket 21 | classification       | product_issue   | 0.1 ms
+2026-05-01 20:06:38 | Ticket 17 | reranker             | score=0.996     | 228.8 ms
+2026-05-01 20:06:38 | Ticket 17 | intent_classifier    | technical_bug(ml) | 1.3 ms
+2026-05-01 20:06:38 | Ticket 17 | guardrails           | safe            | 0.3 ms
+2026-05-01 20:06:38 | Ticket 17 | decision             | replied         | 0.0 ms
+2026-05-01 20:06:38 | Ticket 17 | policy_enforcer      | citation_added  | 0.1 ms
+2026-05-01 20:06:38 | Ticket 17 | END                  | replied         | 431.6 ms
+2026-05-01 20:06:38 | Ticket 22 | START                |                 |
+2026-05-01 20:06:38 | Ticket 22 | classification       | product_issue   | 2.3 ms
+2026-05-01 20:06:39 | Ticket 20 | reranker             | score=0.109     | 279.9 ms
+2026-05-01 20:06:39 | Ticket 20 | intent_classifier    | technical_bug(rule) | 1.6 ms
+2026-05-01 20:06:39 | Ticket 20 | guardrails           | safe            | 0.1 ms
+2026-05-01 20:06:39 | Ticket 20 | decision             | escalated       | 0.0 ms
+2026-05-01 20:06:39 | Ticket 20 | policy_enforcer      | escalation template  | 0.0 ms
+2026-05-01 20:06:39 | Ticket 20 | END                  | escalated       | 464.0 ms
+2026-05-01 20:06:39 | Ticket 23 | START                |                 |
+2026-05-01 20:06:39 | Ticket 23 | classification       | product_issue   | 2.0 ms
+2026-05-01 20:06:39 | Ticket 18 | reranker             | score=0.996     | 328.7 ms
+2026-05-01 20:06:39 | Ticket 18 | intent_classifier    | out_of_scope(ml) | 1.5 ms
+2026-05-01 20:06:39 | Ticket 18 | guardrails           | safe            | 0.1 ms
+2026-05-01 20:06:39 | Ticket 18 | decision             | replied         | 0.0 ms
+2026-05-01 20:06:39 | Ticket 18 | policy_enforcer      | citation_added  | 0.0 ms
+2026-05-01 20:06:39 | Ticket 18 | END                  | replied         | 510.7 ms
+2026-05-01 20:06:39 | Ticket 24 | START                |                 |
+2026-05-01 20:06:39 | Ticket 24 | classification       | invalid         | 0.0 ms
+2026-05-01 20:06:39 | Ticket 24 | retrieval            | none            | 0.0 ms
+2026-05-01 20:06:39 | Ticket 24 | reranker             | score=0.000     | 0.0 ms
+2026-05-01 20:06:39 | Ticket 24 | intent_classifier    | out_of_scope(ml) | 6.4 ms
+2026-05-01 20:06:39 | Ticket 24 | guardrails           | safe            | 1.5 ms
+2026-05-01 20:06:39 | Ticket 24 | decision             | replied         | 0.0 ms
+2026-05-01 20:06:39 | Ticket 24 | policy_enforcer      | escalation template  | 0.0 ms
+2026-05-01 20:06:39 | Ticket 24 | END                  | replied         | 15.8 ms
+2026-05-01 20:06:39 | Ticket 21 | retrieval            | hits=10         | 252.9 ms
+2026-05-01 20:06:39 | Ticket 22 | retrieval            | hits=10         | 167.3 ms
+2026-05-01 20:06:39 | Ticket 23 | retrieval            | hits=10         | 135.4 ms
+2026-05-01 20:06:39 | Ticket 21 | reranker             | score=0.961     | 99.9 ms
+2026-05-01 20:06:39 | Ticket 21 | intent_classifier    | data_privacy(ml) | 1.4 ms
+2026-05-01 20:06:39 | Ticket 21 | guardrails           | safe            | 0.1 ms
+2026-05-01 20:06:39 | Ticket 21 | decision             | replied         | 0.0 ms
+2026-05-01 20:06:39 | Ticket 21 | policy_enforcer      | citation_added  | 0.2 ms
+2026-05-01 20:06:39 | Ticket 21 | END                  | replied         | 357.6 ms
+2026-05-01 20:06:39 | Ticket 22 | reranker             | score=0.008     | 97.7 ms
+2026-05-01 20:06:39 | Ticket 22 | intent_classifier    | feature_request(ml) | 1.6 ms
+2026-05-01 20:06:39 | Ticket 22 | guardrails           | safe            | 0.1 ms
+2026-05-01 20:06:39 | Ticket 22 | decision             | escalated       | 0.0 ms
+2026-05-01 20:06:39 | Ticket 22 | policy_enforcer      | escalation template  | 0.0 ms
+2026-05-01 20:06:39 | Ticket 22 | END                  | escalated       | 277.5 ms
+2026-05-01 20:06:39 | Ticket 23 | reranker             | score=0.920     | 96.7 ms
+2026-05-01 20:06:39 | Ticket 23 | intent_classifier    | data_privacy(ml) | 1.4 ms
+2026-05-01 20:06:39 | Ticket 23 | guardrails           | safe            | 0.1 ms
+2026-05-01 20:06:39 | Ticket 23 | decision             | replied         | 0.0 ms
+2026-05-01 20:06:39 | Ticket 23 | policy_enforcer      | citation_added  | 0.4 ms
+2026-05-01 20:06:39 | Ticket 23 | END                  | replied         | 238.9 ms
+2026-05-01 20:06:39 | Ticket 25 | START                |                 |
+2026-05-01 20:06:39 | Ticket 25 | classification       | invalid         | 0.0 ms
+2026-05-01 20:06:39 | Ticket 25 | retrieval            | none            | 0.0 ms
+2026-05-01 20:06:39 | Ticket 27 | START                |                 |
+2026-05-01 20:06:39 | Ticket 27 | classification       | product_issue   | 4.2 ms
+2026-05-01 20:06:39 | Ticket 25 | reranker             | score=0.000     | 0.0 ms
+2026-05-01 20:06:39 | Ticket 26 | START                |                 |
+2026-05-01 20:06:39 | Ticket 26 | classification       | bug             | 2.0 ms
+2026-05-01 20:06:39 | Ticket 28 | START                |                 |
+2026-05-01 20:06:39 | Ticket 28 | classification       | product_issue   | 1.6 ms
+2026-05-01 20:06:39 | Ticket 25 | intent_classifier    | out_of_scope(ml) | 21.3 ms
+2026-05-01 20:06:39 | Ticket 25 | guardrails           | safe            | 1.3 ms
+2026-05-01 20:06:39 | Ticket 25 | decision             | escalated       | 0.0 ms
+2026-05-01 20:06:39 | Ticket 25 | policy_enforcer      | escalation template  | 0.0 ms
+2026-05-01 20:06:39 | Ticket 25 | END                  | escalated       | 39.8 ms
+2026-05-01 20:06:39 | Ticket 29 | START                |                 |
+2026-05-01 20:06:39 | Ticket 29 | classification       | product_issue   | 0.1 ms
+2026-05-01 20:06:39 | Ticket 26 | retrieval            | hits=10         | 217.3 ms
+2026-05-01 20:06:39 | Ticket 29 | retrieval            | hits=10         | 204.9 ms
+2026-05-01 20:06:39 | Ticket 28 | retrieval            | hits=10         | 216.6 ms
+2026-05-01 20:06:39 | Ticket 27 | retrieval            | hits=10         | 235.3 ms
+2026-05-01 20:06:39 | Ticket 26 | reranker             | score=0.292     | 136.7 ms
+2026-05-01 20:06:39 | Ticket 26 | intent_classifier    | technical_bug(rule) | 4.4 ms
+2026-05-01 20:06:39 | Ticket 26 | guardrails           | safe            | 0.1 ms
+2026-05-01 20:06:39 | Ticket 26 | decision             | escalated       | 0.0 ms
+2026-05-01 20:06:39 | Ticket 26 | policy_enforcer      | escalation template  | 0.0 ms
+2026-05-01 20:06:39 | Ticket 26 | END                  | escalated       | 362.6 ms
+2026-05-01 20:06:39 | Ticket 28 | reranker             | score=0.762     | 155.8 ms
+2026-05-01 20:06:39 | Ticket 28 | intent_classifier    | account_access(ml) | 1.9 ms
+2026-05-01 20:06:39 | Ticket 28 | guardrails           | safe            | 0.1 ms
+2026-05-01 20:06:39 | Ticket 28 | decision             | escalated       | 0.0 ms
+2026-05-01 20:06:39 | Ticket 28 | policy_enforcer      | escalation template  | 0.0 ms
+2026-05-01 20:06:39 | Ticket 28 | END                  | escalated       | 383.1 ms
+2026-05-01 20:06:39 | Ticket 29 | reranker             | score=0.988     | 178.1 ms
+2026-05-01 20:06:39 | Ticket 29 | intent_classifier    | security_concern(ml) | 1.4 ms
+2026-05-01 20:06:39 | Ticket 29 | guardrails           | safe            | 0.1 ms
+2026-05-01 20:06:39 | Ticket 29 | decision             | replied         | 0.0 ms
+2026-05-01 20:06:39 | Ticket 29 | policy_enforcer      | citation_added  | 0.2 ms
+2026-05-01 20:06:39 | Ticket 29 | END                  | replied         | 393.2 ms
+2026-05-01 20:06:39 | Ticket 27 | reranker             | score=0.196     | 172.6 ms
+2026-05-01 20:06:39 | Ticket 27 | intent_classifier    | account_access(ml) | 1.4 ms
+2026-05-01 20:06:39 | Ticket 27 | guardrails           | safe            | 2.3 ms
+2026-05-01 20:06:39 | Ticket 27 | decision             | escalated       | 0.0 ms
+2026-05-01 20:06:39 | Ticket 27 | policy_enforcer      | escalation template  | 0.0 ms
+2026-05-01 20:06:39 | Ticket 27 | END                  | escalated       | 437.4 ms

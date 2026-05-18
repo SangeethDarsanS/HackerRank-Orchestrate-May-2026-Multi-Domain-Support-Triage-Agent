@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//d/Project/hackerrank/hackerrank-orchestrate-may26/code/**)",
+      "Bash(python -m py_compile main.py)",
+      "Bash(python -m py_compile evaluate.py benchmark.py)",
+      "Bash(pip list:*)"
+    ]
+  }
+}
