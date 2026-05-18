@@ -6,7 +6,7 @@
 
 ## Certificate of Excellence
 
-![Logo](https://raw.githubusercontent.com/username/repo/main/assets/logo.png)
+![Logo](Certificate.png)
 
 ---
 
